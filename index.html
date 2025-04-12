@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>素食餐馆采购应用</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>采购清单XFY <span id="current-date"></span></h1>
+            <button id="share-button" class="share-button">通过WhatsApp分享</button>
+        </header>
+
+        <main>
+            <section class="category">
+                <h2>蔬菜类xfy23</h2>
+                <div class="items-grid">
+                    <div class="item" data-name="菜心" data-category="蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/choy-sum.jpg.svg" alt="菜心" class="item-image">
+                        </div>
+                        <p class="item-name">菜心</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="番茄" data-category="蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/tomato.jpg.svg" alt="番茄" class="item-image">
+                        </div>
+                        <p class="item-name">番茄</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="菠菜" data-category="蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/spinach.jpg.svg" alt="菠菜" class="item-image">
+                        </div>
+                        <p class="item-name">菠菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="茄子" data-category="蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/eggplant.jpg.svg" alt="茄子" class="item-image">
+                        </div>
+                        <p class="item-name">茄子</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="category">
+                <h2>面类</h2>
+                <div class="items-grid">
+                    <div class="item" data-name="通心粉" data-category="面类">
+                        <div class="item-image-container">
+                            <img src="images/macaroni.jpg.svg" alt="通心粉" class="item-image">
+                        </div>
+                        <p class="item-name">通心粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="米粉" data-category="面类">
+                        <div class="item-image-container">
+                            <img src="images/rice-noodles.jpg.svg" alt="米粉" class="item-image">
+                        </div>
+                        <p class="item-name">米粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="粗面条" data-category="面类">
+                        <div class="item-image-container">
+                            <img src="images/thick-noodles.jpg.svg" alt="粗面条" class="item-image">
+                        </div>
+                        <p class="item-name">粗面条</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="category">
+                <h2>面类100</h2>
+                <div class="items-grid">
+                    <div class="item" data-name="通心粉" data-category="面类">
+                        <div class="item-image-container">
+                            <img src="images/IMG_20171121_0170.jpg" alt="通心粉" class="item-image">
+                        </div>
+                        <p class="item-name">通心粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="米粉" data-category="面类">
+                        <div class="item-image-container">
+                            <img src="images/rice-noodles.jpg.svg" alt="米粉" class="item-image">
+                        </div>
+                        <p class="item-name">米粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="粗面条" data-category="面类">
+                        <div class="item-image-container">
+                            <img src="images/thick-noodles.jpg.svg" alt="粗面条" class="item-image">
+                        </div>
+                        <p class="item-name">粗面条</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
