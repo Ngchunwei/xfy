@@ -3,58 +3,432 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>素食餐馆采购应用</title>
+    <title>XiaoFoYuan-PurchaseList-app</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>采购清单XFY <span id="current-date"></span></h1>
-            <button id="share-button" class="share-button">通过WhatsApp分享</button>
+            <h1>PurchaseList采购清单 <span id="current-date"></span></h1>
+            <button id="share-button" class="share-button">Send WhatsApp To Boss</button>
         </header>
 
         <main>
             <section class="category">
-                <h2>蔬菜类xfy233</h2>
+                <h2>Vegetables 蔬菜类</h2>
                 <div class="items-grid">
-                    <div class="item" data-name="菜心" data-category="蔬菜类">
+                    <div class="item" data-name="Choy Sum 菜心" data-category="Vegetables 蔬菜类">
                         <div class="item-image-container">
-                            <img src="images/choy-sum.jpg.svg" alt="菜心" class="item-image">
+                            <img src="images/placeholder.svg" alt="Choy Sum 菜心" class="item-image">
                         </div>
-                        <p class="item-name">菜心</p>
+                        <p class="item-name">Choy Sum 菜心</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="番茄" data-category="蔬菜类">
+                    <div class="item" data-name="Sweet Potato leaves 树苗" data-category="Vegetables 蔬菜类">
                         <div class="item-image-container">
-                            <img src="images/tomato.jpg.svg" alt="番茄" class="item-image">
+                            <img src="images/placeholder.svg" alt="Sweet Potato leaves 树苗" class="item-image">
                         </div>
-                        <p class="item-name">番茄</p>
+                        <p class="item-name">Sweet Potato leaves 树苗</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="菠菜" data-category="蔬菜类">
+                    <div class="item" data-name="Yun Choy 元菜苗" data-category="Vegetables 蔬菜类">
                         <div class="item-image-container">
-                            <img src="images/spinach.jpg.svg" alt="菠菜" class="item-image">
+                            <img src="images/placeholder.svg" alt="Yun Choy 元菜苗" class="item-image">
                         </div>
-                        <p class="item-name">菠菜</p>
+                        <p class="item-name">Yun Choy 元菜苗</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="茄子" data-category="蔬菜类">
+                    <div class="item" data-name="Kangkung 翁菜" data-category="Vegetables 蔬菜类">
                         <div class="item-image-container">
-                            <img src="images/eggplant.jpg.svg" alt="茄子" class="item-image">
+                            <img src="images/placeholder.svg" alt="Kangkung 翁菜" class="item-image">
                         </div>
-                        <p class="item-name">茄子</p>
+                        <p class="item-name">Kangkung 翁菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="You Mak 油麦菜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="You Mak 油麦菜" class="item-image">
+                        </div>
+                        <p class="item-name">You Mak 油麦菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Sprouts 芽菜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Sprouts 芽菜" class="item-image">
+                        </div>
+                        <p class="item-name">Sprouts 芽菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Shang Choy 生菜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Shang Choy 生菜" class="item-image">
+                        </div>
+                        <p class="item-name">Shang Choy 生菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Cabbage 包菜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Cabbage 包菜" class="item-image">
+                        </div>
+                        <p class="item-name">Cabbage 包菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Coriander 香菜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Coriander 香菜" class="item-image">
+                        </div>
+                        <p class="item-name">Coriander 香菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Celery 西芹" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Celery 西芹" class="item-image">
+                        </div>
+                        <p class="item-name">Celery 西芹</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Lady's Finger 羊角豆" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Lady's Finger 羊角豆" class="item-image">
+                        </div>
+                        <p class="item-name">Lady's Finger 羊角豆</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Petai 臭豆" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Petai 臭豆" class="item-image">
+                        </div>
+                        <p class="item-name">Petai 臭豆</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Long Beans 豆角" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Long Beans 豆角" class="item-image">
+                        </div>
+                        <p class="item-name">Long Beans 豆角</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Pineapple 黄梨" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Pineapple 黄梨" class="item-image">
+                        </div>
+                        <p class="item-name">Pineapple 黄梨</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Tomato 番茄" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Tomato 番茄" class="item-image">
+                        </div>
+                        <p class="item-name">Tomato 番茄</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Eggplant 矮瓜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Eggplant 矮瓜" class="item-image">
+                        </div>
+                        <p class="item-name">Eggplant 矮瓜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Cucumber 青瓜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Cucumber 青瓜" class="item-image">
+                        </div>
+                        <p class="item-name">Cucumber 青瓜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Bitter Gourd 苦瓜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Bitter Gourd 苦瓜" class="item-image">
+                        </div>
+                        <p class="item-name">Bitter Gourd 苦瓜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Broccoli 西兰花" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Broccoli 西兰花" class="item-image">
+                        </div>
+                        <p class="item-name">Broccoli 西兰花</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Cauliflower 椰菜花" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Cauliflower 椰菜花" class="item-image">
+                        </div>
+                        <p class="item-name">Cauliflower 椰菜花</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Baby Corn 小玉蜀黍" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Baby Corn 小玉蜀黍" class="item-image">
+                        </div>
+                        <p class="item-name">Baby Corn 小玉蜀黍</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Snow Peas 甜豆" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Snow Peas 甜豆" class="item-image">
+                        </div>
+                        <p class="item-name">Snow Peas 甜豆</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Green Chili 青辣椒" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Green Chili 青辣椒" class="item-image">
+                        </div>
+                        <p class="item-name">Green Chili 青辣椒</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Chili Besar 大辣椒" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Chili Besar 大辣椒" class="item-image">
+                        </div>
+                        <p class="item-name">Chili Besar 大辣椒</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Chili Kecil 小辣椒" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Chili Kecil 小辣椒" class="item-image">
+                        </div>
+                        <p class="item-name">Chili Kecil 小辣椒</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Capsicum 青椒" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Capsicum 青椒" class="item-image">
+                        </div>
+                        <p class="item-name">Capsicum 青椒</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Ginger 姜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Ginger 姜" class="item-image">
+                        </div>
+                        <p class="item-name">Ginger 姜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Potato 马铃薯" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Potato 马铃薯" class="item-image">
+                        </div>
+                        <p class="item-name">Potato 马铃薯</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Pumpkin 金瓜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Pumpkin 金瓜" class="item-image">
+                        </div>
+                        <p class="item-name">Pumpkin 金瓜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Carrot 红萝卜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Carrot 红萝卜" class="item-image">
+                        </div>
+                        <p class="item-name">Carrot 红萝卜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="White Radish 白萝卜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="White Radish 白萝卜" class="item-image">
+                        </div>
+                        <p class="item-name">White Radish 白萝卜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Pickle 咸菜" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Pickle 咸菜" class="item-image">
+                        </div>
+                        <p class="item-name">Pickle 咸菜</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Wood Ear 木耳" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Wood Ear 木耳" class="item-image">
+                        </div>
+                        <p class="item-name">Wood Ear 木耳</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Enoki Mushroom 金针菇" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Enoki Mushroom 金针菇" class="item-image">
+                        </div>
+                        <p class="item-name">Enoki Mushroom 金针菇</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Lemon 柠檬" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Lemon 柠檬" class="item-image">
+                        </div>
+                        <p class="item-name">Lemon 柠檬</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Lime 青柠" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Lime 青柠" class="item-image">
+                        </div>
+                        <p class="item-name">Lime 青柠</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Curry Leaf 咖喱叶" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Curry Leaf 咖喱叶" class="item-image">
+                        </div>
+                        <p class="item-name">Curry Leaf 咖喱叶</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Pandan Leaf 斑斓叶" data-category="Vegetables 蔬菜类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Pandan Leaf 斑斓叶" class="item-image">
+                        </div>
+                        <p class="item-name">Pandan Leaf 斑斓叶</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
@@ -65,35 +439,57 @@
             </section>
 
             <section class="category">
-                <h2>面类</h2>
+                <h2>Soy Products & Eggs 豆浆&鸡蛋类</h2>
                 <div class="items-grid">
-                    <div class="item" data-name="通心粉" data-category="面类">
+                    <div class="item" data-name="Eggs 鸡蛋" data-category="Soy Products & Eggs 豆浆&鸡蛋类">
                         <div class="item-image-container">
-                            <img src="images/macaroni.jpg.svg" alt="通心粉" class="item-image">
+                            <img src="images/placeholder.svg" alt="Eggs 鸡蛋" class="item-image">
                         </div>
-                        <p class="item-name">通心粉</p>
+                        <p class="item-name">Eggs 鸡蛋</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="米粉" data-category="面类">
+                    <div class="item" data-name="Soy Milk 豆浆水" data-category="Soy Products & Eggs 豆浆&鸡蛋类">
                         <div class="item-image-container">
-                            <img src="images/rice-noodles.jpg.svg" alt="米粉" class="item-image">
+                            <img src="images/placeholder.svg" alt="Soy Milk 豆浆水" class="item-image">
                         </div>
-                        <p class="item-name">米粉</p>
+                        <p class="item-name">Soy Milk 豆浆水</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="粗面条" data-category="面类">
+                    <div class="item" data-name="Tofu 豆腐" data-category="Soy Products & Eggs 豆浆&鸡蛋类">
                         <div class="item-image-container">
-                            <img src="images/thick-noodles.jpg.svg" alt="粗面条" class="item-image">
+                            <img src="images/placeholder.svg" alt="Tofu 豆腐" class="item-image">
                         </div>
-                        <p class="item-name">粗面条</p>
+                        <p class="item-name">Tofu 豆腐</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Box Tofu 盒子豆腐" data-category="Soy Products & Eggs 豆浆&鸡蛋类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Box Tofu 盒子豆腐" class="item-image">
+                        </div>
+                        <p class="item-name">Box Tofu 盒子豆腐</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Tofu Puff 豆腐卜" data-category="Soy Products & Eggs 豆浆&鸡蛋类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Tofu Puff 豆腐卜" class="item-image">
+                        </div>
+                        <p class="item-name">Tofu Puff 豆腐卜</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
@@ -104,35 +500,647 @@
             </section>
 
             <section class="category">
-                <h2>面类100</h2>
+                <h2>Condiments 调味料类</h2>
                 <div class="items-grid">
-                    <div class="item" data-name="通心粉" data-category="面类">
+                    <div class="item" data-name="White Rice 白米" data-category="Condiments 调味料类">
                         <div class="item-image-container">
-                            <img src="images/IMG_20171121_00170.jpg" alt="通心粉" class="item-image">
+                            <img src="images/placeholder.svg" alt="White Rice 白米" class="item-image">
                         </div>
-                        <p class="item-name">通心粉</p>
+                        <p class="item-name">White Rice 白米</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="米粉" data-category="面类">
+                    <div class="item" data-name="Brown Rice 糙米" data-category="Condiments 调味料类">
                         <div class="item-image-container">
-                            <img src="images/rice-noodles.jpg.svg" alt="米粉" class="item-image">
+                            <img src="images/placeholder.svg" alt="Brown Rice 糙米" class="item-image">
                         </div>
-                        <p class="item-name">米粉</p>
+                        <p class="item-name">Brown Rice 糙米</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
                             <button class="increase">+</button>
                         </div>
                     </div>
-                    <div class="item" data-name="粗面条" data-category="面类">
+                    <div class="item" data-name="Oil 油" data-category="Condiments 调味料类">
                         <div class="item-image-container">
-                            <img src="images/thick-noodles.jpg.svg" alt="粗面条" class="item-image">
+                            <img src="images/placeholder.svg" alt="Oil 油" class="item-image">
                         </div>
-                        <p class="item-name">粗面条</p>
+                        <p class="item-name">Oil 油</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Salt 盐" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Salt 盐" class="item-image">
+                        </div>
+                        <p class="item-name">Salt 盐</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Sugar 糖" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Sugar 糖" class="item-image">
+                        </div>
+                        <p class="item-name">Sugar 糖</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Rock Sugar 冰糖" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Rock Sugar 冰糖" class="item-image">
+                        </div>
+                        <p class="item-name">Rock Sugar 冰糖</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Maltose 麦芽糖" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Maltose 麦芽糖" class="item-image">
+                        </div>
+                        <p class="item-name">Maltose 麦芽糖</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Soy Sauce 酱油" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Soy Sauce 酱油" class="item-image">
+                        </div>
+                        <p class="item-name">Soy Sauce 酱油</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Sesame Oil 麻油" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Sesame Oil 麻油" class="item-image">
+                        </div>
+                        <p class="item-name">Sesame Oil 麻油</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Black Vinegar 黑醋" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Black Vinegar 黑醋" class="item-image">
+                        </div>
+                        <p class="item-name">Black Vinegar 黑醋</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="White Vinegar 白醋" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="White Vinegar 白醋" class="item-image">
+                        </div>
+                        <p class="item-name">White Vinegar 白醋</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Fresh Milk 生奶" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Fresh Milk 生奶" class="item-image">
+                        </div>
+                        <p class="item-name">Fresh Milk 生奶</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Plum Sauce 酸梅酱" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Plum Sauce 酸梅酱" class="item-image">
+                        </div>
+                        <p class="item-name">Plum Sauce 酸梅酱</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Thai Sauce 泰式酱" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Thai Sauce 泰式酱" class="item-image">
+                        </div>
+                        <p class="item-name">Thai Sauce 泰式酱</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Preserved Radish 菜脯" data-category="Condiments 调味料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Preserved Radish 菜脯" class="item-image">
+                        </div>
+                        <p class="item-name">Preserved Radish 菜脯</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="category">
+                <h2>Noodles 面类</h2>
+                <div class="items-grid">
+                    <div class="item" data-name="Pan Mee 板面" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Pan Mee 板面" class="item-image">
+                        </div>
+                        <p class="item-name">Pan Mee 板面</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Yellow Noodles 黄面" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Yellow Noodles 黄面" class="item-image">
+                        </div>
+                        <p class="item-name">Yellow Noodles 黄面</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Hokkien Mee 福建面" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Hokkien Mee 福建面" class="item-image">
+                        </div>
+                        <p class="item-name">Hokkien Mee 福建面</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Lai Fun 濑粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Lai Fun 濑粉" class="item-image">
+                        </div>
+                        <p class="item-name">Lai Fun 濑粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Wonton Noodles 云吞面" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Wonton Noodles 云吞面" class="item-image">
+                        </div>
+                        <p class="item-name">Wonton Noodles 云吞面</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Wonton Wrappers 云吞皮" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Wonton Wrappers 云吞皮" class="item-image">
+                        </div>
+                        <p class="item-name">Wonton Wrappers 云吞皮</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Mee Hun Besar 米粉大" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Mee Hun Besar 米粉大" class="item-image">
+                        </div>
+                        <p class="item-name">Mee Hun Besar 米粉大</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Mee Hun kecil 米粉小" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Mee Hun kecil 米粉小" class="item-image">
+                        </div>
+                        <p class="item-name">Mee Hun kecil 米粉小</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Hor Fun 河粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Hor Fun 河粉" class="item-image">
+                        </div>
+                        <p class="item-name">Hor Fun 河粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Potato Starch 风车粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Potato Starch 风车粉" class="item-image">
+                        </div>
+                        <p class="item-name">Potato Starch 风车粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Rice Flour 粘米粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Rice Flour 粘米粉" class="item-image">
+                        </div>
+                        <p class="item-name">Rice Flour 粘米粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Tapioca Flour 木薯粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Tapioca Flour 木薯粉" class="item-image">
+                        </div>
+                        <p class="item-name">Tapioca Flour 木薯粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Pepper 胡椒粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Pepper 胡椒粉" class="item-image">
+                        </div>
+                        <p class="item-name">Pepper 胡椒粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Turmeric Powder 黄姜粉" data-category="Noodles 面类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Turmeric Powder 黄姜粉" class="item-image">
+                        </div>
+                        <p class="item-name">Turmeric Powder 黄姜粉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="category">
+                <h2>Meats 斋料类</h2>
+                <div class="items-grid">
+                    <div class="item" data-name="Fish 豆包鱼" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Fish 豆包鱼" class="item-image">
+                        </div>
+                        <p class="item-name">Fish 豆包鱼</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Cod Fish 鳕鱼" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Cod Fish 鳕鱼" class="item-image">
+                        </div>
+                        <p class="item-name">Cod Fish 鳕鱼</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Stone Fish 石头鱼" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Stone Fish 石头鱼" class="item-image">
+                        </div>
+                        <p class="item-name">Stone Fish 石头鱼</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Shark's Fin 鱼翅" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Shark's Fin 鱼翅" class="item-image">
+                        </div>
+                        <p class="item-name">Shark's Fin 鱼翅</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Crab Meat 蟹肉" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Crab Meat 蟹肉" class="item-image">
+                        </div>
+                        <p class="item-name">Crab Meat 蟹肉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Fish Ball 鱼丸" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Fish Ball 鱼丸" class="item-image">
+                        </div>
+                        <p class="item-name">Fish Ball 鱼丸</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Fish Cake 鱼饼" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Fish Cake 鱼饼" class="item-image">
+                        </div>
+                        <p class="item-name">Fish Cake 鱼饼</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Goose 斋鹅" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Goose 斋鹅" class="item-image">
+                        </div>
+                        <p class="item-name">Goose 斋鹅</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Ham 火腿" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Ham 火腿" class="item-image">
+                        </div>
+                        <p class="item-name">Ham 火腿</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Chicken Drumstick 鸡腿" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Chicken Drumstick 鸡腿" class="item-image">
+                        </div>
+                        <p class="item-name">Chicken Drumstick 鸡腿</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Crispy Chicken 香酥鸡" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Crispy Chicken 香酥鸡" class="item-image">
+                        </div>
+                        <p class="item-name">Crispy Chicken 香酥鸡</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Abalone Mushroom 鲍鱼菇" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Abalone Mushroom 鲍鱼菇" class="item-image">
+                        </div>
+                        <p class="item-name">Abalone Mushroom 鲍鱼菇</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Monkey Head Mushroom 猴头菇" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Monkey Head Mushroom 猴头菇" class="item-image">
+                        </div>
+                        <p class="item-name">Monkey Head Mushroom 猴头菇</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Oyster Mushroom 奶油菇" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Oyster Mushroom 奶油菇" class="item-image">
+                        </div>
+                        <p class="item-name">Oyster Mushroom 奶油菇</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Anchovies 江鱼仔" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Anchovies 江鱼仔" class="item-image">
+                        </div>
+                        <p class="item-name">Anchovies 江鱼仔</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Fu Chuk 炸府竹" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Fu Chuk 炸府竹" class="item-image">
+                        </div>
+                        <p class="item-name">Fu Chuk 炸府竹</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Yam Ring 佛钵" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Yam Ring 佛钵" class="item-image">
+                        </div>
+                        <p class="item-name">Yam Ring 佛钵</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Char Siu 叉烧" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Char Siu 叉烧" class="item-image">
+                        </div>
+                        <p class="item-name">Char Siu 叉烧</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Mutton 羊肉" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Mutton 羊肉" class="item-image">
+                        </div>
+                        <p class="item-name">Mutton 羊肉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Prawn 虾" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Prawn 虾" class="item-image">
+                        </div>
+                        <p class="item-name">Prawn 虾</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Venison 鹿肉" data-category="Meats 斋料类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Venison 鹿肉" class="item-image">
+                        </div>
+                        <p class="item-name">Venison 鹿肉</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="category">
+                <h2>Others 其他类</h2>
+                <div class="items-grid">
+                    <div class="item" data-name="Plastic Bag 3*5 塑料袋3*5" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Plastic Bag 3*5 塑料袋3*5" class="item-image">
+                        </div>
+                        <p class="item-name">Plastic Bag 3*5 塑料袋3*5</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Plastic Bag 6*9 塑料袋6*9" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Plastic Bag 6*9 塑料袋6*9" class="item-image">
+                        </div>
+                        <p class="item-name">Plastic Bag 6*9 塑料袋6*9</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Plastic Bag 7*10 塑料袋7*10" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Plastic Bag 7*10 塑料袋7*10" class="item-image">
+                        </div>
+                        <p class="item-name">Plastic Bag 7*10 塑料袋7*10</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Plastic Bag 8*12 塑料袋8*12" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Plastic Bag 8*12 塑料袋8*12" class="item-image">
+                        </div>
+                        <p class="item-name">Plastic Bag 8*12 塑料袋8*12</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Box 750ml 打包盒750" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Box 750ml 打包盒750" class="item-image">
+                        </div>
+                        <p class="item-name">Box 750ml 打包盒750</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Box 1000ml 打包盒1000" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Box 1000ml 打包盒1000" class="item-image">
+                        </div>
+                        <p class="item-name">Box 1000ml 打包盒1000</p>
+                        <div class="quantity-control hidden">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="item" data-name="Economy Box 经济盒" data-category="Others 其他类">
+                        <div class="item-image-container">
+                            <img src="images/placeholder.svg" alt="Economy Box 经济盒" class="item-image">
+                        </div>
+                        <p class="item-name">Economy Box 经济盒</p>
                         <div class="quantity-control hidden">
                             <button class="decrease">-</button>
                             <span class="quantity">1</span>
