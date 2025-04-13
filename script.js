@@ -125,8 +125,11 @@ function generatePurchaseList() {
 
 // 通过WhatsApp分享
 function shareViaWhatsApp(text) {
+    // 在文本末尾添加固定链接
+    const textWithLink = text + '\n\nhttps://xfy-ngchunweis-projects.vercel.app/';
+    
     // 编码文本以便在URL中使用
-    const encodedText = encodeURIComponent(text);
+    const encodedText = encodeURIComponent(textWithLink);
     const whatsappUrl = `https://wa.me/?text=${encodedText}`;
     
     // 在新窗口中打开WhatsApp分享链接
