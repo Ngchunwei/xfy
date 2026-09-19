@@ -126,7 +126,7 @@ function generatePurchaseList() {
 // 通过WhatsApp分享
 function shareViaWhatsApp(text) {
     // 在文本末尾添加固定链接
-    const textWithLink = text + '\n\nhttps://xfy-ngchunweis-projects.vercel.app/';
+    const textWithLink = text + '\n\nhttps://xiaofoyuan-purchase2026.vercel.app/';
     
     // 编码文本以便在URL中使用
     const encodedText = encodeURIComponent(textWithLink);
